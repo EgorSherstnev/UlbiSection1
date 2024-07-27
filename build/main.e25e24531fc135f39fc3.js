@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)(123);\n\n\n//# sourceURL=webpack://first-section/./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\r\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)(123);\r\n\n\n//# sourceURL=webpack://first-section/./src/index.ts?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFn: () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn(arg) {\n    console.log('RANDOM FUNCTION 123');\n    return \"123\";\n}\n\n\n//# sourceURL=webpack://first-section/./src/test.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   someFn: () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn(arg) {\r\n    console.log('RANDOM FUNCTION 123');\r\n    return \"123\";\r\n}\r\n\n\n//# sourceURL=webpack://first-section/./src/test.ts?");
 
 /***/ })
 
