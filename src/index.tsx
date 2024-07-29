@@ -1,5 +1,5 @@
 import { render } from "react-dom";
-import Counter from "./components/counter";
+import Counter from "./components/Counter";
 
 render( 
    <div className="">
