@@ -1,6 +1,6 @@
 import { Route, Routes, Link } from 'react-router-dom';
 import Counter from './components/Counter';
-import './index.scss'
+import './styles/index.scss'
 import AboutPage from './pages/AboutPage/AboutPage';
 import MainPage from './pages/MainPage/MainPage';
 import { MainPageAsync } from './pages/MainPage/MainPage.async';
