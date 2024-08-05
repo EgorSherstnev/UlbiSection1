@@ -5,11 +5,13 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import MainPage from './pages/MainPage/MainPage';
 import { MainPageAsync } from './pages/MainPage/MainPage.async';
 import { AboutPageAsync } from './pages/AboutPage/AboutPage.async';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 
 const App = () => {
+
   return (
-    <div className='app'>
+    <div className= {`app ${theme}`}>
+      <button onClick={toggleTheme}>TOGGLE</button>
       <Link to={'/'}>Главная</Link>
       <Link to={'/about'}>О сайте</Link>
       <Suspense fallback={<div>Loading...</div>}>
