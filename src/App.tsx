@@ -11,6 +11,7 @@ import { useTheme } from './theme/useTheme';
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
+  const bool = true;
 
   return (
     <div className= {`app ${theme}`}>
