@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true, // Включение общего форматирования при сохранении
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html"
+  ],
+  "eslint.options": {
+    "extensions": [".js", ".mjs", ".cjs", ".jsx", ".ts", ".tsx"]
+  }
+}
