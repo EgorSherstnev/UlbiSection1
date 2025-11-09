@@ -53,7 +53,17 @@
     "no-eval": "error",
     "curly": ["error", "all"],
     "no-alert": "warn",
-    "max-len": ["error", { "code": 80, "ignoreComments": true }],
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreComments": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true,
+        "ignorePattern": "^const\\s[A-Za-z0-9_]+:\\sRecord<"
+      }
+    ],
     "object-shorthand": ["error", "always"],
     "prefer-const": "error",
     "array-bracket-spacing": ["error", "never"]
