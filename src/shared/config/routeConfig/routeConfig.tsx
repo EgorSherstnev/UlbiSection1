@@ -13,6 +13,7 @@ export const RoutePath:
 Record<(typeof AppRoute)[keyof typeof AppRoute], string> = {
     [AppRoute.MAIN]: '/',
     [AppRoute.ABOUT]: '/about',
+    //последний маршрут должен быть "звездочкой", чтобы ловить все несуществующие пути
     [AppRoute.NOT_FOUND]: '*',
 };
 
